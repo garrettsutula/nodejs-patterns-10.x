@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-patterns",
+  "version": "0.1.0",
+  "description": "design patterns for latest version of node & ECMAScript",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/garrettsutula/nodejs-patterns.git"
+  },
+  "author": "Garrett Sutula",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/garrettsutula/nodejs-patterns/issues"
+  },
+  "homepage": "https://github.com/garrettsutula/nodejs-patterns#readme",
+  "devDependencies": {
+    "eslint": "^5.1.0",
+    "mocha": "^5.2.0"
+  }
+}
