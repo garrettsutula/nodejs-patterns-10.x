@@ -7,7 +7,7 @@ class Logger {
 
     this.log = (message) => {
       console.log(`${message} - loggerid: ${this.rand}`);
-    }
+    };
 
     return Logger.instance;
   }

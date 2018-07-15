@@ -1,3 +1,3 @@
-import { readFile } from '../module.mjs';
+import { readFile } from '../module';
 
-readFile('test.txt')
+readFile('test.txt');

@@ -1,9 +1,9 @@
-import read from '../asyncAwait.mjs';
+import read from '../asyncAwait';
 
 read('test.txt')
-.then((result) =>{
-  console.log(result);
-})
-.catch((err)=>{
-  console.log(err)
-})
+  .then((result) => {
+    console.log(result);
+  })
+  .catch((err) => {
+    console.log(err);
+  });

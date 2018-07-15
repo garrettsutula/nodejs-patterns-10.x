@@ -1,5 +1,5 @@
-import Person from '../classes.mjs';
+import Person from '../classes';
 
 const person = new Person('garrett', 'sutula');
-person.first = 'notgarrett';
+person.first = 'Maverick';
 person.sayName();
