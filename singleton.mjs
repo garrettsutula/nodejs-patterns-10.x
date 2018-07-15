@@ -1,12 +1,11 @@
 class Logger {
   constructor() {
     if (!Logger.instance) {
-      this.rand = Math.random();
       Logger.instance = this;
     }
 
     this.log = (message) => {
-      console.log(`${message} - loggerid: ${this.rand}`);
+      console.log(message);
     };
 
     return Logger.instance;

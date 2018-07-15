@@ -5,6 +5,6 @@ export default class Person {
   }
 
   sayName() {
-    console.log(`hi my name is ${this.first} ${this.last}`)
+    console.log(`hi my name is ${this.first} ${this.last}`);
   }
 }

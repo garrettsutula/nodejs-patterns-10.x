@@ -13,8 +13,8 @@ function readFile(path) {
     });
 }
 
-// most other examples use default export (preferred)
-// demonstrating the alternative here, useful for swagger controllers
-export {
+const moduleExports = {
   readFile,
 };
+
+export default moduleExports;

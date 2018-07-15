@@ -1,6 +1,6 @@
 import read from '../asyncAwait';
 
-read('test.txt')
+read('test.txt', 'utf8')
   .then((result) => {
     console.log(result);
   })
